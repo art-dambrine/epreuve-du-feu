@@ -1,0 +1,46 @@
+= L'epreuve du feu - coding accelerator
+Doc Writer <https://art-dambrine.ovh/asciidoc[asciidoc @art-dambrine]>
+:toc: left
+:hide-uri-scheme:
+:source-highlighter: highlight.js
+
+== Consignes
+
+- avec le langage que vous souhaitez
+
+- exécuter votre programme depuis le shell
+
+== L'escalier
+
+Créer un script qui affiche un escalier en fonction du premier argument.
+
+Ex. d’appel du script :
+--------
+$> ./escalier 4
+#
+##
+###
+####
+--------
+
+== Majuscule
+
+Créer un script qui affiche une lettre sur deux en majuscule et le reste en minuscule de la
+chaîne de caractères du premier argument.
+
+Ex. d’appel du script :
+----------
+$> ./majuscule “Bien le bonjour!”
+bIeN lE bOnJoUr!
+----------
+
+
+== Factoriel en récursif
+
+Créer un script qui calcul la factoriel du nombre passé en argument.
+
+Ex. d’appel du script :
+---------
+$> ./factoriel 3
+6
+---------
