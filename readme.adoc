@@ -80,3 +80,21 @@ $> cat c2.txt
 091230
 883700
 --------
+
+
+== Anagrammes
+
+Créer un script qui affiche tous les anagrammes du premier argument contenu dans le
+fichier du second arguments.
+
+Ex. d’appel du script :
+---------
+$> ./anagramme arbre fr.txt
+[“arbre”, “barre”]
+$> cat fr.txt
+amour
+arbre
+balade
+barre
+beau
+---------
