@@ -6,7 +6,7 @@
 
 function string_tri_bulle(string $mot): string
 {
-    // Créer un fonction de tri des lettres dans un mot par odre alphabetique, tri à bulle alphabetique
+    // tri à bulle ordre alphabetique
     while (true) {
         $tri_ok = true;
         for ($i = 0; $i < strlen($mot) - 1; $i++) {
