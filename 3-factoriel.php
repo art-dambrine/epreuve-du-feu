@@ -2,7 +2,7 @@
 // Factoriel en récursif
 // Rappel calcul factoriel exemple: 4! = 1*2*3*4
 
-function calcul_factoriel(int &$nombrefact, int &$resultat)
+function calcul_factoriel(int &$nombrefact, float &$resultat)
 {
     $resultat = $nombrefact * $resultat;
     $nombrefact = $nombrefact - 1;
