@@ -17,9 +17,9 @@ Créer un script qui affiche un escalier en fonction du premier argument.
 Ex. d’appel du script :
 --------
 $> ./escalier 4
-#
-##
-###
+   #
+  ##
+ ###
 ####
 --------
 
