@@ -30,7 +30,7 @@ chaîne de caractères du premier argument.
 
 Ex. d’appel du script :
 ----------
-$> ./majuscule “Bien le bonjour!”
+$> ./majuscule Bien le bonjour!
 bIeN lE bOnJoUr!
 ----------
 
@@ -132,3 +132,13 @@ $> ./cat s.txt
 5_8|976|321
 761|235|8_4
 -----------
+
+== Factoriel, le retour
+
+Créer un script qui calcul la factoriel du nombre passé en argument, sans exposant.
+Ex. d’appel du script :
+
+------
+$> ./factoriel 42
+1,405,006,117,752,879,898,543,142,606,244,511,569,936,384,000,000,000
+------

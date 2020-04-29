@@ -19,4 +19,4 @@ $resultat = 1;
 
 calcul_factoriel($nombrefact,$resultat);
 
-echo "Le factoriel de {$argv[1]}! est $resultat.\n";
+echo "Le factoriel !{$argv[1]} est $resultat.\n";
