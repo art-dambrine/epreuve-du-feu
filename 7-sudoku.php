@@ -167,7 +167,7 @@ else
     $debug_mode = false;
 
 
-// Tant qu'il y a des '0' dans le sudoku on continue ou que le sudoku ne peut pas être résolu en moins de $iteration_max
+// Tant qu'il y a des '0' dans le sudoku ou que le sudoku ne peut pas être résolu en moins de $iteration_max on continue
 $iteration = 0;
 while (in_array_recursive(0, $sudoku, true)) {
     for ($y = 0; $y < 9; $y++) {
@@ -181,10 +181,10 @@ while (in_array_recursive(0, $sudoku, true)) {
         }
     }
 
-    if( ($iteration++) === $iteration_max){
+    if (($iteration++) === $iteration_max) {
         echo "\nATTENTION: ce Sudoku ne peut pas être résolu en moins de $iteration_max itérations :/\n";
-        break;  
-    } 
+        break;
+    }
 }
 
 echo "\nSolution du sudoku : \n\n";
